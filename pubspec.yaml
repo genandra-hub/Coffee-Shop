@@ -1,0 +1,33 @@
+name: goals
+description: A simple Flutter app to help you achieve your goals!
+
+version: 1.1+2
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  dynamic_theme:
+  eva_icons_flutter:
+  flutter_local_notifications:
+  flutter_speed_dial:
+  path_provider:
+  sqflite:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.6.1"
+
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/
+
+flutter_icons:
+  image_path: "assets/icon.png" 
+  android: true
